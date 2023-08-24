@@ -1,0 +1,46 @@
+DICAS JAVASCRIPT
+
+CONVERSOES
+
+NUMEROS -> STRING 
+
+var n1 = Number(prompt('Digite um numero:'))
+var n1 = parseFloat(prompt('Digite um numero:'))
+var n1 = parseInt(prompt('Digite um numero:'))
+
+STRING > NUMEROS
+
+var n2 = toString(prompt('Digite um numero:'))
+var n2 = string(prompt('Digite um numero:'))
+
+CONTATENAÇÃO
+
+alert(` O ALUNO ${nome} COM A IDADE DE ${idade} TIROU A NOTA DE ${nota}`) //templateString
+
+alert(' O ALUNO ' +nome+ 'COM A IDADE DE ' +idade+ ' TIROU A NOTA DE' +nota)
+
+FORMATAÇÃO DE STRING
+
+var nome = prompt("qual seu nome")
+document.write (`Seu nome tem ${nome.length} letras`) <
+document.writeln (`Seu nome em maiuscula ${nome.toUpperCase()} letras`) 
+document.writeln (`Seu nome em minuscula ${nome.toLowerCase()} letras`) 
+
+FORMATAÇÃO DE NUMEROS 
+
+vae n1 = 1545.5
+n1.toFixed(2) //travar na quantidade de casas desejadas
+'1545.50'
+n1.toFixed(2). replace('.', (',') //mudar o ponto fluante para virgula
+'1545,50'
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'} // mudar para a moeda local do pais R$
+'R$ 1545.50'
+
+OPERADORES
+
+5 + 2 = 7 // + = soma
+5 - 2 = 3 // - = subtração
+5 * 2 = 10 // * = multipliacação
+5 / 2 = 2.5 // / = divisão
+5 % 2 = 1 // % = resto da divisão
+5 ** 2 = 25 // ** = potencia 
